@@ -1,0 +1,46 @@
+# Build artifacts
+output/
+build/
+dist/
+*.deb
+*.tar.gz
+*.tar.xz
+*.bin
+
+# SDK and large source trees
+references/
+
+# Debian package build
+debian/files
+debian/*.debhelper
+debian/*.substvars
+debian/.debhelper/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+.build-logs/
+
+# Local artifacts
+.tmp/
+.tmp-deb/
+*.tmp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Object files
+*.o
+*.a
+*.so
+*.so.*
